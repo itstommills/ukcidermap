@@ -4,7 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "Little Pomona"
+        "title": "Little Pomona",
+        "description": "testing123",
+        "url": "http://www.littlepomona.com",
+        "address": "testing, 12345, GL11FD"
       },
       "geometry": {
         "type": "Point",

@@ -61,7 +61,10 @@
 
           new mapboxgl.Popup()
               .setLngLat(coordinates)
-              .setHTML(description)
+              .setHTML(
+                '<h3>' + feature.properties.title + '</h3>' +
+                '<p>' + feature.properties.description + '</p>'
+                )
               .addTo(map);
       });
 
