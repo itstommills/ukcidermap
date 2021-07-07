@@ -4,8 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description":
-            "<strong>Little Pomona</strong><p><a href="https://littlepomona.com">littlepomona.com</a>
+        "description": "Little Pomona"
       },
       "geometry": {
         "type": "Point",
@@ -16,11 +15,11 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "Make it Mount Pleasant"
+        "description": "Pilton Cider"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-92.7298, 30.7373]
+        "coordinates": [-2.55065, 51.19201]
       }
     },
 
