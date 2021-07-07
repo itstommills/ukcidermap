@@ -5,8 +5,7 @@
       "type": "Feature",
       "properties": {
         "description":
-        "<strong>Little Pomona</strong><p>
-        <a href="https://littlepomona.com">littlepomona.com</a>
+            "<strong>Little Pomona</strong><p><a href="https://littlepomona.com">littlepomona.com</a>
       },
       "geometry": {
         "type": "Point",
