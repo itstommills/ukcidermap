@@ -50,7 +50,8 @@
       map.on('click', 'ciderys-layer', function (e) {
           var coordinates = e.features[0].geometry.coordinates.slice();
           var title = e.features[0].properties.title;
-          var description = e.features[0].properties.description;
+          var url = e.features[0].properties.url;
+          var address = e.features[0].properties.address;
 
           // Ensure that if the map is zoomed out such that multiple
           // copies of the feature are visible, the popup appears
@@ -61,7 +62,7 @@
 
           new mapboxgl.Popup()
               .setLngLat(coordinates)
-              .setHTML('<h3>' + title + '</h3><p>' + description)
+              .setHTML('<h3>' + title + '</h3><p>' + url + '<br>' + address)
               .addTo(map);
       });
 
