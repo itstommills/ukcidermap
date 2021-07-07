@@ -45,28 +45,32 @@
           });
       });
 
+      map.on('click', function(e) {
+        // If the user clicked on one of your markers, get its information.
+        var features = map.queryRenderedFeatures(e.point, {
+          layers: 'ciderys-layer' // replace with your layer name
+        });
+        if (!features.length) {
+          return;
+        }
+        var feature = features[0];
 
-      // When a click event occurs on a feature in the places layer, open a popup at the
-      // location of the feature, with description HTML from its properties.
-      map.on('click', 'ciderys-layer', function (e) {
-          var coordinates = e.features[0].geometry.coordinates.slice();
-          var description = e.features[0].properties.description;
+        /*
+          Create a popup, specify its options
+          and properties, and add it to the map.
+        */
+        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(
+            '<h3>' + feature.properties.title + '</h3>' +
+            '<p>' + feature.properties.description + '</p>'
+            )
+          .addTo(map);
 
-          // Ensure that if the map is zoomed out such that multiple
-          // copies of the feature are visible, the popup appears
-          // over the copy being pointed to.
-          while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-          }
 
-          new mapboxgl.Popup()
-              .setLngLat(coordinates)
-              .setHTML(
-                '<h3>' + feature.properties.title + '</h3>' +
-                '<p>' + feature.properties.description + '</p>'
-                )
-              .addTo(map);
       });
+
+
 
       // Change the cursor to a pointer when the mouse is over the places layer.
       map.on('mouseenter', 'ciderys-layer', function () {
