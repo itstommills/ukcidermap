@@ -25,7 +25,9 @@
         ]
       },
       "properties": {
-        "description": '<strong>Make it Mount Pleasant</strong><p>'      }
+        "description": '<strong>Make it Mount Pleasant</strong><p>'
+        'icon': 'theatre-15'
+      }
     },
     {
       "type": "Feature",
@@ -37,7 +39,9 @@
         ]
       },
       "properties": {
-        "description": '<strong>Make it Mount Pleasant</strong><p>'      }
-    }
+        "description": '<strong>Make it Mount Pleasant</strong><p>'
+        'icon': 'theatre-15'
+      }
+    },
   ]
 }
