@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "title": "Little Pomona",
-        "url": "<a href='http://www.littlepomona.com'>littlepomona.com</a>",
+        "url": "<a href='http://www.littlepomona.com' target='_blank'>littlepomona.com</a>",
         "address": "Brook House Farm, Avenbury Ln, Bromyard, HR7 4LB"
       },
       "geometry": {
