@@ -4,11 +4,11 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Make it Mount Pleasant</strong>"
+        "description": "<strong>Little Polomona</strong><p>littlepomona.com"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-90.0715, 29.951]
+        "coordinates": [-2.49451, 52.16932]
       }
     },
 
