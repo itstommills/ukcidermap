@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>UK Cidery Map</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-  <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet">
+  <link href="./ciderMapCSS.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
   <style>
   body { margin: 0; padding: 0; }
@@ -60,9 +60,21 @@
               coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
           }
 
+//          new mapboxgl.Popup()
+//              .setLngLat(coordinates)
+//              .setHTML('<p style="font-size:20px"><strong>' + title + '</strong></p><p>' + address + '<p>' + url)
+//              .addTo(map);
+//      });
+
           new mapboxgl.Popup()
               .setLngLat(coordinates)
-              .setHTML('<p style="font-size:20px"><strong>' + title + '</strong></p><p>' + address + '<p>' + url)
+              .setHTML(`<table>
+                              <tr>
+                                  <td><img src="https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335" alt="Little Pomona Logo" style="max-width: 150px"></td>
+                                  <td><p style="font-size:20px"><strong>${title}</strong></p>${address}<br><br>${url}</td>
+                              </tr>
+                              </table>`)
+
               .addTo(map);
       });
 
