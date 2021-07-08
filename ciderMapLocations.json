@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "brandlogo": "<img src="https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335" style="max-width: 150px">",
+        "brandlogo": "<p><img src='https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335' style='max-width: 150px'></p>",
         "title": "Little Pomona",
         "url": "<a href='http://www.littlepomona.com' target='_blank'>littlepomona.com</a>",
         "address": "Brook House Farm, Avenbury Ln, Bromyard, HR7 4LB"
