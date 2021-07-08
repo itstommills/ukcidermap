@@ -7,7 +7,22 @@
         "brandlogo": "<p><a href='http://www.littlepomona.com' target='_blank'><img src='https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335' style='width: 150px'></a></p>",
         "title": "Little Pomona",
         "url": "<a href='http://www.littlepomona.com' target='_blank'>littlepomona.com</a>",
-        "address": "Brook House Farm, Avenbury Ln, Bromyard, HR7 4LB",
+        "address": "Order online at <a href='http://www.littlepomona.com' target='_blank'>littlepomona.com</a> or visit Brook House Farm, Avenbury Ln, Bromyard, HR7 4LB",
+        "description": "Voted 2019 Cider Producer of the Year by the Hereford Times, Susanna and James Forbes are renowned for using the very best fruit and natural methods. Visit them and try their ciders in their tasting room."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.49451, 52.16932]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "brandlogo": "<p><a href='http://www.piltoncider.com' target='_blank'><img src='https://www.piltoncider.com/images/PiltonLogo100.png' style='width: 150px'></a></p>",
+        "title": "Pilton Cider",
+        "url": "<a href='http://www.piltoncider.com' target='_blank'>piltoncider.com</a>",
+        "address": "Order online at <a href='http://www.piltoncider.com' target='_blank'>piltoncider.com</a>",
         "description": "Voted 2019 Cider Producer of the Year by the Hereford Times, Susanna and James Forbes are renowned for using the very best fruit and natural methods. Visit them and try their ciders in their tasting room."
       },
       "geometry": {
