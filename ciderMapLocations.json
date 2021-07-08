@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "brandlogo": "<p><a href='http://www.littlepomona.com' target='_blank'><img src='https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335' style='width: 150px'></a></p>",
+        "brandlogo": "<p><a href='http://www.littlepomona.com' target='_blank'><img src='https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335' style='max-width: 150px'></a></p>",
         "title": "Little Pomona",
         "url": "<a href='http://www.littlepomona.com' target='_blank'>littlepomona.com</a>",
         "address": "Order online at <a href='http://www.littlepomona.com' target='_blank'>littlepomona.com</a> or visit Brook House Farm, Avenbury Ln, Bromyard, HR7 4LB",
@@ -19,7 +19,7 @@
     {
       "type": "Feature",
       "properties": {
-        "brandlogo": "<p><a href='http://www.piltoncider.com' target='_blank'><img src='https://www.piltoncider.com/images/PiltonLogo100.png' style='width: 150px'></a></p>",
+        "brandlogo": "<p><a href='http://www.piltoncider.com' target='_blank'><img src='https://www.piltoncider.com/mediaimages/PiltonCiderLogoBlackOnWhite.jpg' style='max-width: 150px'></a></p>",
         "title": "Pilton Cider",
         "url": "<a href='http://www.piltoncider.com' target='_blank'>piltoncider.com</a>",
         "address": "Order online at <a href='http://www.piltoncider.com' target='_blank'>piltoncider.com</a>",
@@ -31,17 +31,21 @@
       }
     },
 
-
     {
       "type": "Feature",
       "properties": {
-        "description": "Make it Mount Pleasant"
+        "brandlogo": "<p><a href='http://www.findandfosterciders.com' target='_blank'><img src='http://images.squarespace-cdn.com/content/v1/5800e22a893fc04b449097fd/c2c4429a-0807-4cd0-a8ab-88dafdcdfc6c/TRANSPARENT+Find+%26+foster.png?format=1500w' style='max-width: 150px'></a></p>",
+        "title": "FIND & FOSTER",
+        "url": "<a href='http://www.findandfosterciders.com' target='_blank'>findandfosterciders.com</a>",
+        "address": "Order online at <a href='http://www.findandfosterciders.com' target='_blank'>findandfosterciders.com</a>",
+        "description": "Working with local farmers to help breathe life back into traditional orchards on their farms; to prevent further decline and the extinction of important local apple varieties."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-91.1473, 30.4711]
+        "coordinates": [-3.49910, 50.77200]
       }
-    }
+    },
+
 
   ]
 }
