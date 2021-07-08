@@ -52,7 +52,6 @@ body { margin: 0; padding: 0; }
       // location of the feature, with description HTML from its properties.
       map.on('click', 'ciderys-layer', function (e) {
           var coordinates = e.features[0].geometry.coordinates.slice();
-          var logo = e.features[0].properties.logo;
           var title = e.features[0].properties.title;
           var url = e.features[0].properties.url;
           var address = e.features[0].properties.address;
@@ -74,7 +73,7 @@ body { margin: 0; padding: 0; }
               .setLngLat(coordinates)
               .setHTML(`<table>
                               <tr>
-                                  <td>${logo}</td>
+                                  <td><img src="https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335" alt="Little Pomona Logo" style="max-width: 150px"></td>
                                   <td><p style="font-size:20px"><strong>${title}</strong></p>${address}<br><br>${url}</td>
                               </tr>
                               </table>`)
