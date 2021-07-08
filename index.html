@@ -7,14 +7,8 @@
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <link href="https://itstommills.github.io/ukcidermap/ciderMapCSS.css" rel="stylesheet" />
 </head>
-
-<link href="./ciderMapCSS" rel="stylesheet" />
-
-<style>
-body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-</style>
 
 <body>
   <div id="map"></div>
@@ -52,6 +46,7 @@ body { margin: 0; padding: 0; }
       // location of the feature, with description HTML from its properties.
       map.on('click', 'ciderys-layer', function (e) {
           var coordinates = e.features[0].geometry.coordinates.slice();
+          var logo = e.features[0].properties.logo;
           var title = e.features[0].properties.title;
           var url = e.features[0].properties.url;
           var address = e.features[0].properties.address;
@@ -73,7 +68,7 @@ body { margin: 0; padding: 0; }
               .setLngLat(coordinates)
               .setHTML(`<table>
                               <tr>
-                                  <td><img src="https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335" alt="Little Pomona Logo" style="max-width: 150px"></td>
+                                  <td><img src="${logo}" style="max-width: 150px"></td>
                                   <td><p style="font-size:20px"><strong>${title}</strong></p>${address}<br><br>${url}</td>
                               </tr>
                               </table>`)
