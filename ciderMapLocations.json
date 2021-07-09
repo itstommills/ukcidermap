@@ -23,7 +23,7 @@
         "title": "Pilton Cider",
         "url": "<a href='http://www.piltoncider.com' target='_blank'>piltoncider.com</a>",
         "address": "Order online at <a href='http://www.piltoncider.com' target='_blank'>piltoncider.com</a>",
-        "description": "Artisan producers at the heart of Comerset's cider-land making whole juice sparking cider by the English method of Keeving."
+        "description": "Artisan producers at the heart of Somerset's cider-land making whole juice sparking cider by the English method of Keeving."
       },
       "geometry": {
         "type": "Point",
@@ -43,6 +43,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-3.49910, 50.77200]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "brandlogo": "<p><a href='http://www.jolterpress.com/' target='_blank'><img src=' ./logos/jolterpress.jpeg' style='max-width: 150px'></a></p>",
+        "title": "Jolter Press",
+        "url": "<a href='http://www.jolterpress.com/' target='_blank'>jolterpress.com</a>",
+        "address": "Order online at <a href='http://www.https://jolterpress.com/' target='_blank'>####</a>",
+        "description": "‘A bloke in a shed. Similar looking bloke in an orchard. The same bloke later on behind the bar. Autumn on autopilot. A cast of thousands.’"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.488311445371339, 51.865715032739296]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "brandlogo": "<p><a href='http://www.greggs-pit.co.uk/' target='_blank'><img src='./logos/greggspit.jpg' style='max-width: 150px'></a></p>",
+        "title": "Gregg’s Pit Cider & Perry",
+        "url": "<a href='http://www.greggs-pit.co.uk/' target='_blank'>####/a>",
+        "address": "View stockists online at <a href='http://www.greggs-pit.co.uk/' target='_blank'>greggs-pit.co.uk</a>",
+        "description": "Established in 1994, Gregg’s Pit make craft cider and perry from 100% juice of vintage fruit harvested from traditional standard Herefordshire orchards."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.4930212539689984, 51.98873916362177]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "brandlogo": "<p><a href='http://www.butfordorganics.co.uk/' target='_blank'><img src='./logos/butfordorganics.png' style='max-width: 150px'></a></p>",
+        "title": "Butford Organics",
+        "url": "<a href='http://www.butfordorganics.co.uk/' target='_blank'>butfordorganics.co.uk</a>",
+        "address": "Order online at <a href='https://butfordorganics.co.uk/online-shop/' target='_blank'>utfordorganics.co.uk/online-shop/</a> or visit Butford Organics, Butford Farm, Bowley Lane, Bodenham, Herefordshire, HR1 3LG",
+        "description": "Herefordshire is the home of the cider apple and perry pear, and at Butford Farm they’re continuing the tradition of quality cider and perry production."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.670009357005841, 52.17966981926898]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "brandlogo": "<p><a href='http://www.######' target='_blank'><img src='https://www../logos/onceuponatree.jpeg' style='max-width: 150px'></a></p>",
+        "title": "Once Upon a Tree",
+        "url": "<a href='http://www.onceuponatree.co.uk' target='_blank'>onceuponatree.co.uk</a>",
+        "address": "Order online at <a href='http://www.https://shop.haygrove-evolution.com/collections/once-upon-a-tree-cider' target='_blank'>haygrove-evolution.com</a>",
+        "description": "Herefordshire cider made by a wine maker - a mixture of traditional ciders and innovative ciders using wine making principles."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.450154569312666, 52.03652779813613]
       }
     }
 
