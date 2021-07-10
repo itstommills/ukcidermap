@@ -140,7 +140,7 @@
       "properties": {
         "brandlogo": "<p><a href='http://fletcherscider.com/' target='_blank'><img src='./logos/fletchers.jpeg' style='max-width: 150px'></a></p>",
         "title": "Fletchers Cider",
-        "url": "<a href='http://fletcherscider.com/' target='_blank'>####</a>",
+        "url": "<a href='http://fletcherscider.com/' target='_blank'>fletcherscider.com/</a>",
         "address": "Find stockists at <a href='http://fletcherscider.com/' target='_blank'>fletcherscider.com/</a>",
         "description": "A family run craft cider producer based in the heart of the Worcestershire countryside. The Fletcher family started planting orchards with traditional cider apple varieties over 14 years ago, and now use mainly their own apples."
       },
