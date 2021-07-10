@@ -181,14 +181,14 @@
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://westmiltoncider.co.uk/' target='_blank'><img src=' ./logos/westmilton.jpeg' style='max-width: 150px'></a></p>",
-        "title": "Polgoon",
+        "title": "West Milton Cider Co",
         "url": "<a href='http://www.westmiltoncider.co.uk/' target='_blank'>westmiltoncider.co.uk//a>",
         "address": "Order online at <a href='http://westmiltoncider.co.uk/shop' target='_blank'>westmiltoncider.co.uk/</a>",
         "description": "They stick to the same time honoured principles – select the best apples from the best orchards, mill them, squeeze them, put them in a barrel and let the magic happen. All of their ciders use a natural fermentation with no added sulphites or chemicals."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-5.553061159281675, 50.12042617871852]
+        "coordinates": [-2.7103598713641577, 50.76560299385829]
       }
     },
     {
@@ -231,6 +231,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-2.834153455895199, 50.977372048427206]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "brandlogo": "<p><a href='http://www.polgoon.com/' target='_blank'><img src='./logo/polgoon.png' style='max-width: 150px'></a></p>",
+        "title": "Polgoon",
+        "url": "<a href='http://www.polgoon.com/' target='_blank'>polgoon.com</a>",
+        "address": "Order online at <a href='polgoon.com/shop' target='_blank'>polgoon.com/</a> or visit for a tour and tasting.",
+        "description": "Polgoon is dedicated to producing a range of artisan Cornish wines, ciders and juices on the family-run vineyard and orchard."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.553440062400165, 50.119325287069074]
       }
     }
 
