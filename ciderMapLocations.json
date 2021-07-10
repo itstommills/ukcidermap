@@ -109,7 +109,7 @@
     {
       "type": "Feature",
       "properties": {
-        "brandlogo": "<p><a href='http://www.newtoncourtcider.com/' target='_blank'><img src='.logos/newtoncourtcider.jpeg' style='max-width: 150px'></a></p>",
+        "brandlogo": "<p><a href='http://www.newtoncourtcider.com/' target='_blank'><img src='./logos/newtoncourtcider.jpeg' style='max-width: 150px'></a></p>",
         "title": "Newton Court Cider",
         "url": "<a href='http://www.newtoncourtcider.com/' target='_blank'>newtoncourtcider.com/</a>",
         "address": "Order online at <a href='http://www.https://www.newtoncourtcider.com/shopnow' target='_blank'>newtoncourtcider.com/</a>",
