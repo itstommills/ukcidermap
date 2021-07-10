@@ -1,7 +1,7 @@
 {
   "type": "Feature",
   "properties": {
-    "brandlogo": "<p><a href='http://www.######' target='_blank'><img src='https://www.######' style='max-width: 150px'></a></p>",
+    "brandlogo": "<p><a href='http://www.######' target='_blank'><img src='./logos/' style='max-width: 150px'></a></p>",
     "title": "#####",
     "url": "<a href='http://www.#####' target='_blank'>####</a>",
     "address": "Order online at <a href='http://www.####' target='_blank'>####</a>",

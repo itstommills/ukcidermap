@@ -138,7 +138,7 @@
     {
       "type": "Feature",
       "properties": {
-        "brandlogo": "<p><a href='http://fletcherscider.com/' target='_blank'><img src='./logo/fletchers.jpeg' style='max-width: 150px'></a></p>",
+        "brandlogo": "<p><a href='http://fletcherscider.com/' target='_blank'><img src='./logos/fletchers.jpeg' style='max-width: 150px'></a></p>",
         "title": "Fletchers Cider",
         "url": "<a href='http://fletcherscider.com/' target='_blank'>####</a>",
         "address": "Find stockists at <a href='http://fletcherscider.com/' target='_blank'>fletcherscider.com/</a>",
@@ -152,7 +152,7 @@
     {
       "type": "Feature",
       "properties": {
-        "brandlogo": "<p><a href='http://www.wilces.co.uk/' target='_blank'><img src='./logo/wilces.jpeg' style='max-width: 150px'></a></p>",
+        "brandlogo": "<p><a href='http://www.wilces.co.uk/' target='_blank'><img src='./logos/wilces.jpeg' style='max-width: 150px'></a></p>",
         "title": "Wilce’s Cider",
         "url": "<a href='http://www.wilces.co.uk/' target='_blank'>wilces.co.uk/</a>",
         "address": "Order online at <a href='http://www.bestofbritishbeer.co.uk ' target='_blank'>https://www.bestofbritishbeer.co.uk/cider/cider-by-producers/wilcecider.html</a>",
@@ -166,7 +166,7 @@
     {
       "type": "Feature",
       "properties": {
-        "brandlogo": "<p><a href='http://www.oliversciderandperry.co.uk/' target='_blank'><img src='./logo/olivers.png' style='max-width: 150px'></a></p>",
+        "brandlogo": "<p><a href='http://www.oliversciderandperry.co.uk/' target='_blank'><img src='./logos/olivers.png' style='max-width: 150px'></a></p>",
         "title": "Oliver’s Fine Cider & Perry",
         "url": "<a href='http://www.oliversciderandperry.co.uk/' target='_blank'>oliversciderandperry.co.uk/</a>",
         "address": "Order online at <a href='http://www.https://www.oliversciderandperry.co.uk/shop/' target='_blank'>oliversciderandperry.co.uk/</a>",
