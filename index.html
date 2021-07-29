@@ -92,6 +92,11 @@
       // Add zoom and rotation controls to the map.
       map.addControl(new mapboxgl.FullscreenControl());
       map.addControl(new mapboxgl.NavigationControl());
+      map.addControl(new mapboxgl.GeolocateControl({
+          fitBoundsOptions: {
+            maxZoom:10
+          }
+      }));
 
 
 </script>
