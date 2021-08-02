@@ -68,6 +68,11 @@
           new mapboxgl.Popup()
               .setLngLat(coordinates)
               .setHTML (`<table style="table-layout:fixed; width:350px">
+              								<colgroup>
+                              		<col span="1" style="width: 10%;">
+                                  <col span="1" style="width: 90%;">
+                              </colgroup>
+                              <tbody>
                               <tr>
                                   <td colspan='2'><p style="font-size:23px; text-align:center"><strong>${title}</strong></p></td>
                               </tr>
@@ -79,6 +84,7 @@
                                   <td><span class="material-icons">mapmarker</span></td>
                                   <td><p style="font-size:12px; word-wrap:break-word">${address}</p></td>
                               </tr>
+                              </tbody>
                               </table>`)
               .setMaxWidth("350px")
               .addTo(map);
