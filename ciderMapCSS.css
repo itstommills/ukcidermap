@@ -1,7 +1,13 @@
 body { margin:0; padding:0; }
 #map { position:absolute; top:0; bottom:0; width:100%; }
 
-th, td {
-  padding: 10px 10px 10px 10px;
-  word-break: break-word
+td {
+  padding: 0%;
+  word-break: break-word;
+  height: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
