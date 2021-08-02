@@ -238,6 +238,20 @@
         "coordinates": [-5.553440062400165,50.119325287069074
         ]
       }
+    },{
+      "type": "Feature",
+      "properties": {
+        "brandlogo": "<p><a href='https://wearehawkes.com/' target='_blank'><img src='./logos/hawkes.png' style='max-width: 150px'></a></p>",
+        "title": "Hawkes",
+        "url": "<a href='https://wearehawkes.com/' target='_blank'>wearehawkes.com</a>",
+        "address": "Order online at <a href='https://www.brewdog.com/uk/shop/cider' target='_blank'>brewdog.com/</a>",
+        "description": "BrewDog are on a mission to revolutionise the craft cider industry in the same way they did with craft beer."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.07471759261,51.50019991
+        ]
+      }
     }
   ]
 }
