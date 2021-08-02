@@ -47,10 +47,8 @@
       // location of the feature, with description HTML from its properties.
       map.on('click', 'ciderys-layer', function (e) {
           var coordinates = e.features[0].geometry.coordinates.slice();
-          var brandlogo = e.features[0].properties.brandlogo;
           var title = e.features[0].properties.title;
-          var url = e.features[0].properties.url;
-          var description = e.features[0].properties.description;
+          var buying = e.features[0].properties.buying;
           var address = e.features[0].properties.address;
 
           // Ensure that if the map is zoomed out such that multiple
@@ -68,14 +66,20 @@
 
           new mapboxgl.Popup()
               .setLngLat(coordinates)
-              .setHTML(`<table>
+              .setHTML (`<table>
                               <tr>
-                                  <td>${brandlogo}</td>
-                                  <td><p style="font-size:23px"><strong>${title}</strong></p>${description}<br><br>${address}<br><br></td>
+                                  <td colspan='2'><p style="font-size:23px; text-align:center"><strong>${title}</strong></p></td>
+                              </tr>
+                              <tr>
+                                  <td>Icon1</td>
+                                  <td><p style="font-size:20px">${buying}</p></td>
+                              </tr>
+                              <tr>
+                                  <td>Icon2</td>
+                                  <td><p style="font-size:20px">${address}</p></td>
                               </tr>
                               </table>`)
-
-              .setMaxWidth("450px")
+              .setMaxWidth("350px")
               .addTo(map);
       });
 
