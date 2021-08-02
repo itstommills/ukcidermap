@@ -1,6 +1,7 @@
 {
   "type": "FeatureCollection",
-  "features": [{
+  "features": [
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.littlepomona.com' target='_blank'><img src='https://cdn.shopify.com/s/files/1/0378/9504/5252/files/LP_logo_360x.png?v=1586516335' style='max-width: 150px'></a></p>",
@@ -11,10 +12,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.49451,52.16932
-        ]
+        "coordinates": [-2.49451, 52.16932]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.piltoncider.com' target='_blank'><img src='https://www.piltoncider.com/mediaimages/PiltonCiderLogoBlackOnWhite.jpg' style='max-width: 150px'></a></p>",
@@ -25,10 +27,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.55065,51.19201
-        ]
+        "coordinates": [-2.55065, 51.19201]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.findandfosterciders.com' target='_blank'><img src='http://images.squarespace-cdn.com/content/v1/5800e22a893fc04b449097fd/c2c4429a-0807-4cd0-a8ab-88dafdcdfc6c/TRANSPARENT+Find+%26+foster.png?format=1500w' style='max-width: 150px'></a></p>",
@@ -39,10 +42,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.49910,50.77200
-        ]
+        "coordinates": [-3.49910, 50.77200]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.jolterpress.com/' target='_blank'><img src=' ./logos/jolterpress.jpeg' style='max-width: 150px'></a></p>",
@@ -53,10 +57,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.488311445371339,51.865715032739296
-        ]
+        "coordinates": [-2.488311445371339, 51.865715032739296]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.greggs-pit.co.uk/' target='_blank'><img src='./logos/greggspit.jpg' style='max-width: 150px'></a></p>",
@@ -67,10 +72,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.4930212539689984,51.98873916362177
-        ]
+        "coordinates": [-2.4930212539689984, 51.98873916362177]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.butfordorganics.co.uk/' target='_blank'><img src='./logos/butfordorganics.png' style='max-width: 150px'></a></p>",
@@ -81,10 +87,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.670009357005841,52.17966981926898
-        ]
+        "coordinates": [-2.670009357005841, 52.17966981926898]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.onceuponatree.co.uk' target='_blank'><img src='./logos/onceuponatree.jpeg' style='max-width: 150px'></a></p>",
@@ -95,10 +102,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.450154569312666,52.03652779813613
-        ]
+        "coordinates": [-2.450154569312666, 52.03652779813613]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.newtoncourtcider.com/' target='_blank'><img src='./logos/newtoncourtcider.jpeg' style='max-width: 150px'></a></p>",
@@ -109,10 +117,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.720183031870624,52.18231383448291
-        ]
+        "coordinates": [-2.720183031870624, 52.18231383448291]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://rosscider.com/' target='_blank'><img src='./logos/ross.jpeg' style='max-width: 150px'></a></p>",
@@ -123,10 +132,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.6320935320326484,51.91777469612836
-        ]
+        "coordinates": [-2.6320935320326484, 51.91777469612836]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://fletcherscider.com/' target='_blank'><img src='./logos/fletchers.jpeg' style='max-width: 150px'></a></p>",
@@ -137,10 +146,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.4102280084559373,52.382594487682006
-        ]
+        "coordinates": [-2.4102280084559373, 52.382594487682006]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.wilces.co.uk/' target='_blank'><img src='./logos/wilces.jpeg' style='max-width: 150px'></a></p>",
@@ -151,10 +160,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.424529201269888,52.047254334774856
-        ]
+        "coordinates": [-2.424529201269888, 52.047254334774856]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.oliversciderandperry.co.uk/' target='_blank'><img src='./logos/olivers.png' style='max-width: 150px'></a></p>",
@@ -165,10 +174,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.593235862592752,52.11932980284196
-        ]
+        "coordinates": [-2.593235862592752, 52.11932980284196]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://westmiltoncider.co.uk/' target='_blank'><img src=' ./logos/westmilton.jpeg' style='max-width: 150px'></a></p>",
@@ -179,10 +188,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.7103598713641577,50.76560299385829
-        ]
+        "coordinates": [-2.7103598713641577, 50.76560299385829]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.sheppyscider.com/' target='_blank'><img src='./logos/sheppys.png' style='max-width: 150px'></a></p>",
@@ -193,10 +202,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.1719052019099863,50.99431038118422
-        ]
+        "coordinates": [-3.1719052019099863, 50.99431038118422]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.sandfordorchards.co.uk/' target='_blank'><img src=' ./logos/sandford.svg' style='max-width: 150px'></a></p>",
@@ -207,10 +216,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.645396632716934,50.7892714358231
-        ]
+        "coordinates": [-3.645396632716934,  50.7892714358231]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.somersetciderbrandy.com/' target='_blank'><img src='./logos/somersetciderbrandy.png' style='max-width: 150px'></a></p>",
@@ -221,10 +230,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-2.834153455895199,50.977372048427206
-        ]
+        "coordinates": [-2.834153455895199, 50.977372048427206]
       }
-    },{
+    },
+
+    {
       "type": "Feature",
       "properties": {
         "brandlogo": "<p><a href='http://www.polgoon.com/' target='_blank'><img src='./logos/polgoon.png' style='max-width: 150px'></a></p>",
@@ -235,9 +245,9 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-5.553440062400165,50.119325287069074
-        ]
+        "coordinates": [-5.553440062400165, 50.119325287069074]
       }
     }
+
   ]
 }
