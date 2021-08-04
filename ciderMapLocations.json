@@ -64,7 +64,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Butford Organics",
-				"buying": "Order online at <a href='https://butfordorganics.co.uk/online-shop/' target='_blank'>Butfordorganics.co.uk/online-shop/</a> or visit the tap room",
+				"buying": "Order online at <a href='https://butfordorganics.co.uk/online-shop/' target='_blank'>butfordorganics.co.uk/online-shop</a> or visit the tap room",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -88,7 +88,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Newton Court Cider",
-				"buying": "Order online at <a href='http://www.https://www.newtoncourtcider.com/shopnow' target='_blank'>newtoncourtcider.com/</a>",
+				"buying": "Order online at <a href='https://www.newtoncourtcider.com/shopnow' target='_blank'>newtoncourtcider.com</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -100,7 +100,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Ross on Wye Cider & Perry Co",
-				"buying": "Order online at <a href='http://shop.rosscider.com/' target='_blank'>rosscider.com/</a>",
+				"buying": "Order online at <a href='http://shop.rosscider.com/' target='_blank'>rosscider.com</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -112,7 +112,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Fletchers Cider",
-				"buying": "Find stockists at <a href='http://fletcherscider.com/' target='_blank'>fletcherscider.com/</a>",
+				"buying": "Find stockists at <a href='http://fletcherscider.com/' target='_blank'>fletcherscider.com</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -124,7 +124,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Wilce’s Cider",
-				"buying": "Order online at <a href='http://www.bestofbritishbeer.co.uk ' target='_blank'>https://www.bestofbritishbeer.co.uk/cider/cider-by-producers/wilcecider.html</a>",
+				"buying": "Order online at <a href='https://www.bestofbritishbeer.co.uk/cider/cider-by-producers/wilcecider.html' target='_blank'>bestofbritishbeer.co.uk</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -136,7 +136,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Oliver’s Fine Cider & Perry",
-				"buying": "Order online at <a href='http://www.https://www.oliversciderandperry.co.uk/shop/' target='_blank'>oliversciderandperry.co.uk/</a>",
+				"buying": "Order online at <a href='http://www.https://www.oliversciderandperry.co.uk/shop/' target='_blank'>oliversciderandperry.co.uk</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -148,7 +148,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "West Milton Cider Co",
-				"buying": "Order online at <a href='http://westmiltoncider.co.uk/shop' target='_blank'>westmiltoncider.co.uk/</a>",
+				"buying": "Order online at <a href='http://westmiltoncider.co.uk/shop' target='_blank'>westmiltoncider.co.uk</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -160,7 +160,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Sheppy’s",
-				"buying": "Order online at <a href='https://www.sheppyscider.com/online-shop/ ' target='_blank'>sheppyscider.com/</a>",
+				"buying": "Order online at <a href='https://www.sheppyscider.com/online-shop/ ' target='_blank'>sheppyscider.com</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -172,7 +172,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Sandford Orchards",
-				"buying": "Order online at <a href='http://www.sandfordorchards.co.uk/shop/' target='_blank'>sandfordorchards.co.uk/</a>",
+				"buying": "Order online at <a href='http://www.sandfordorchards.co.uk/shop/' target='_blank'>sandfordorchards.co.uk</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -196,7 +196,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Polgoon",
-				"buying": "Order online at <a href='polgoon.com/shop' target='_blank'>polgoon.com/</a> or visit for a tour and tasting.",
+				"buying": "Order online at <a href='polgoon.com/shop' target='_blank'>polgoon.com</a> or visit for a tour and tasting.",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -208,7 +208,7 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Hawkes",
-				"buying": "Order online at <a href='https://www.brewdog.com/uk/shop/cider' target='_blank'>brewdog.com/</a>",
+				"buying": "Order online at <a href='https://www.brewdog.com/uk/shop/cider' target='_blank'>brewdog.com</a>",
 				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
 			},
 			"geometry": {
@@ -216,6 +216,402 @@
 				"coordinates": [-0.07471759261,51.50019991
 				]
 			}
-    }
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Perry's Somerset Cider",
+				"buying": "Order online at <a href='https://www.perryscider.co.uk/' target='_blank'>perryscider.co.uk</a>",
+				"address": "Perry's Cider, Dowlish Wake, Ilminster, Somerset, TA19 0NY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.889838685,50.91079367
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Bushel & Peck",
+				"buying": "Order online at <a href='https://www.bushelpeck.co.uk/buycider' target='_blank'>bushelpeck.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.837889433,51.83260546
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Barleywood Orchard",
+				"buying": "View their website at <a href='https://barleywoodorchard.co.uk/' target='_blank'>barleywoodorchard.co.uk</a>",
+				"address": "Barley Wood Walled Garden, Long Lane, Wrington, BS40 5SA"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.748119123,51.36224113
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Worleys Cider",
+				"buying": "Order online at <a href='https://www.worleyscider.co.uk/shop' target='_blank'>www.worleyscider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.470462346,51.19663188
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "The Newt in Somerset",
+				"buying": "Order online at <a href='https://thenewtinsomerset.com/cyder' target='_blank'>thenewtinsomerset.com/cyder</a>",
+				"address": "The Newt in Somerset, Bruton, Somerset, BA7 7NG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.491018802,51.08173782
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Wilding Cider",
+				"buying": "View their website at <a href='https://www.wildingcider.co.uk/' target='_blank'>wildingcider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.628946854,51.37050266
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Caledonian",
+				"buying": "View their website at <a href='https://caledoniancider.com' target='_blank'>caledoniancider.com</a>",
+				"address": "1 Testing Street, 2 Town Name, County, P05 7CD"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.437689287,57.5665314
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Duckchicken",
+				"buying": "View their website at <a href='https://duckchickencider.co.uk/' target='_blank'>duckchickencider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1275073123,51.41988838
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Green shed",
+				"buying": "Order online at <a href='https://www.greenshedcider.co.uk/' target='_blank'>greenshedcider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.323801319,51.40368797
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Nightingale",
+				"buying": "Order online at <a href='https://nightingalecider.com/cider-perry' target='_blank'>nightingalecider.com</a>",
+				"address": "Nightingale Farm Shop, Appledore Road, Tenterden, Kent, TN30 7DH"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.723659354,51.06135438
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Trevibban Mill",
+				"buying": "Order online at <a href='https://trevibbanmill.com/shop/' target='_blank'>trevibbanmill.com</a>",
+				"address": "Trevibban Mill Vineyard, Vineyard & Orchards, Dark Lane, Nr Padstow, PL27 7SE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.937795543,50.49501133
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Cidentro Cider House",
+				"buying": "Order online at <a href='https://www.cidentro.co.uk/products/' target='_blank'>cidentro.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.9251917847,52.68426293
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Bollhayes",
+				"buying": "Order online at <a href='https://bollhayescider.co.uk/buy-online/' target='_blank'>bollhayescider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.191662715,50.91990032
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Skyborry",
+				"buying": "Visit their website at <a href='http://www.skyborrycider.co.uk/' target='_blank'>skyborrycider.co.uk/</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.063426015,52.35618145
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Artistraw",
+				"buying": "Order online at <a href='https://www.artistraw.co.uk/' target='_blank'>artistraw.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.094445832,52.09657424
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Orchards of Husthwaite",
+				"buying": "Order online at <a href='https://www.orchardsofhusthwaite.co.uk' target='_blank'>orchardsofhusthwaite.co.uk</a>",
+				"address": "Orchards of Husthwaite, Low Street, Husthwaite, York, YO61 4PX"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.204144885,54.16644688
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "The Orchard Project",
+				"buying": "View their website at <a href='https://www.theorchardproject.org.uk/drinks/' target='_blank'>theorchardproject.org.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.06176116758,51.58545669
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Tillingham",
+				"buying": "Order online at <a href='https://tillingham.com/product/tillingham-qvevri-cyder-peaux-de-pomme/' target='_blank'>tillingham.com</a>",
+				"address": "Tillingham, Dew Farm, Dew Lane, Peasmarsh, East Sussex TN31 6XD"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.677633227,50.95879786
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Fowey Valley Cider",
+				"buying": "Order online at <a href='https://www.foweyvalleycider.co.uk/' target='_blank'>foweyvalleycider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.667169561,50.41074938
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Cwm Maddoc",
+				"buying": "View their website at <a href='hollow-ash.co.uk/prices-from-the-smallholding/' target='_blank'>hollow-ash.co.uk</a>",
+				"address": "Hollow Ash, Broad Oak, Herefordshire, HR2 8QZ"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.757321915,51.88305881
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Rull Orchard",
+				"buying": "Order online at <a href='https://rullorchard.co.uk/rull_shop/' target='_blank'>rullorchard.co.uk/</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.526814962,50.8416388
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Ridge & Furrow",
+				"buying": "View their website at <a href='https://ridgeandfurrowcider.co.uk/' target='_blank'>ridgeandfurrowcider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.375702232,50.83836954
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Rock Hill Cider",
+				"buying": "No website, so try their <a href='https://www.instagram.com/rockhill_orchard/' target='_blank'>Instagram!</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.869226006,50.91459387
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Kentish Pip",
+				"buying": "Order online at <a href='https://www.kentishpip.co.uk' target='_blank'>kentishpip.co.uk</a>",
+				"address": "Kentish Pip Cider, Woolton Farm, Bekesbourne, Canterbury, CT4 5EA"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.139654713,51.27233286
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Tor Cider Company",
+				"buying": "Order online at <a href='https://www.torcider.co.uk/cellardoorsales' target='_blank'>torcider.co.uk</a>",
+				"address": "The Tor Cider Company, Castle Lane, Worth, Wells, Somerset, BA5 1NL"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.701239438,51.20176279
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Rebel Root Ciderworks",
+				"buying": "Order online at <a href='https://www.wobblegate.co.uk/pages/ciders' target='_blank'>wobblegate.co.uk</a>",
+				"address": "Old Mill Aple Farm, Haywards Heath, RH17 5SE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2194749,50.99520402
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Smith Hayne Cider",
+				"buying": "Visit their website at <a href='https://www.smithhayneorchards.com/cider' target='_blank'>smithhayneorchards.com</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.574468665,50.85799288
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Pulpt",
+				"buying": "Order online at <a href='https://shop.pulpt.co.uk/' target='_blank'>pulpt.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.861771296,51.37403458
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Ciderkins",
+				"buying": "Order online at <a href='https://ciderniks.com/shop/' target='_blank'>ciderniks.com</a>",
+				"address": "Ciderniks, High Street, Kintbury, Berkshire, RG17 9TJ"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.452405502,51.39957041
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Bignose & Beardy",
+				"buying": "Order online at <a href='https://bignoseandbeardy.com/collections/all-products' target='_blank'>bignoseandbeardy.com</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.1286687925,50.96333877
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Starvecrow",
+				"buying": "No website. See their <a href='https://www.instagram.com/starvecrowcider/' target='_blank'>Instagram account</a> for the latest.",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.6781696844,50.97899837
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Temple Cider",
+				"buying": "View their website at <a href='https://www.templecider.co.uk/our-ciders-2/' target='_blank'>templecider.co.uk</a>",
+				"address": "No physical shop or tasting rooms"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.743547582,50.81096022
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Beard and Sabre",
+				"buying": "Order online at <a href='https://www.beardandsabre.co.uk/' target='_blank'>beardandsabre.co.uk</a>",
+				"address": "Beard & Sabre, 22 Denmark Street, Bristol, BS1 5DQ"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.598609208,51.45284208
+				]
+			}
+		}
 	]
 }
