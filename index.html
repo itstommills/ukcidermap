@@ -12,6 +12,7 @@
 </head>
 
 
+
 <body>
   <div id="map"></div>
   <script>
@@ -74,19 +75,19 @@
                               </colgroup>
                               <tbody>
                               <tr>
-                                  <td colspan='2'><p style="font-size:23px; text-align:center"><strong>${title}</strong></p></td>
+                                  <td colspan='2' style="font-size:23px; text-align:center;" height="50"><strong>${title}</strong></td>
                               </tr>
                               <tr>
-                                  <td><span class="material-icons">language</span></td>
-                                  <td><p style="font-size:12px">${buying}</p></td>
+                                  <td style="text-align:center; vertical-align:middle;"><span class="material-icons md-18">language</span></td>
+                                  <td style="font-size:14px">${buying}</td>
                               </tr>
                               <tr>
-                                  <td><span class="material-icons">my_location</span></td>
-                                  <td><p style="font-size:12px">${address}</p></td>
+                                  <td style="text-align:center"><span class="material-icons md-18">my_location</span></td>
+                                  <td style="font-size:14px">${address}</td>
                               </tr>
                               </tbody>
                               </table>`)
-              .setMaxWidth("350px")
+              .setMaxWidth("400px")
               .addTo(map);
       });
 

@@ -1,13 +1,28 @@
-body { margin:0; padding:0; }
-#map { position:absolute; top:0; bottom:0; width:100%; }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
 
 td {
-  padding: 0%;
+  padding: 2% 1%;
   word-break: break-word;
-  height: 5px;
+  border: 0px solid black;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  border: 0px solid black;
+  vertical-align: middle;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
 }
