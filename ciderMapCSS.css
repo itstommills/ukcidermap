@@ -10,13 +10,13 @@ body {
   width: 100%;
 }
 
-td {
+.tdMap {
   padding: 2% 1%;
   word-break: break-word;
   border: 0px solid black;
 }
 
-table {
+.tableMap {
   border-collapse: collapse;
   border-spacing: 0;
   border: 0px solid black;
