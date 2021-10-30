@@ -127,8 +127,10 @@
       // Setting up the sidebar
 
       // create the sidebar instance and add it to the map
-      var sidebar = L.control.sidebar({ container: 'sidebar' })
-          .addTo(map)
+      var sidebar = L.control.sidebar({
+          container: 'sidebar'
+          autopan: 'true'
+        }).addTo(map)
           .open('home');
 
       // add panels dynamically to the sidebar
