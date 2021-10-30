@@ -15,6 +15,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Ayrshire Riviera Cider",
+				"buying": "No website. See their <a href='https://www.facebook.com/AyrshireRivieraCider/' target='_blank'>Facebook page</a> for the latest.",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.567406495,55.51030534
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Barleywood Orchard",
 				"buying": "View their website at <a href='https://barleywoodorchard.co.uk/' target='_blank'>barleywoodorchard.co.uk</a>",
 				"address": "Barley Wood Walled Garden, Long Lane, Wrington, BS40 5SA"
@@ -63,6 +75,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Burrow Hill Cider",
+				"buying": "Order online at <a href='https://www.somersetciderbrandy.com/burrow-hill-cider' target='_blank'>somersetciderbrandy.com</a>",
+				"address": "The Somerset Cider Brandy Company, Pass Vale Farm, Burrow Hill, Martock, Somerset, TA12 6BU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.838755624,50.97715915
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Bushel & Peck",
 				"buying": "Order online at <a href='https://www.bushelpeck.co.uk/buycider' target='_blank'>bushelpeck.co.uk</a>",
 				"address": "Not open to the public"
@@ -82,6 +106,18 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [-2.670009357005841,52.17966981926898
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Cairn O'Mohr",
+				"buying": "Order online at <a href='https://cairnomohr.com/' target='_blank'>cairnomohr.com</a>",
+				"address": "Cairn O'Mohr, East Inchmichael, Errol, Perthshire, Scotland, PH2 7SP"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.217661508,56.41429849
 				]
 			}
 		},{
@@ -123,6 +159,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Clyde Cider",
+				"buying": "Visit their website at <a href='https://www.clydecider.com' target='_blank'>clydecider.com</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.283829132,55.87924878
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Crackington",
 				"buying": "Order online at <a href='https://www.crackingtoncider.co.uk/' target='_blank'>crackingtoncider.co.uk</a>",
 				"address": "Crackington Cider Co, Tremayna Farm, Bude, EX23 0NR"
@@ -147,6 +195,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Dour Cider",
+				"buying": "No website. See their <a href='https://www.instagram.com/dourcider' target='_blank'>Instagram account</a> for the latest.",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.388475815,56.0401713
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Duckchicken",
 				"buying": "View their website at <a href='https://duckchickencider.co.uk/' target='_blank'>duckchickencider.co.uk</a>",
 				"address": "Not open to the public"
@@ -154,6 +214,18 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [-0.1275073123,51.41988838
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Easterton Cider",
+				"buying": "Visit their website at <a href='https://www.eastertoncider.com/' target='_blank'>eastertoncider.com</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.488308648,57.33221215
 				]
 			}
 		},{
@@ -195,6 +267,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Gloud",
+				"buying": "Order online at <a href='https://gouldcider.co.uk/' target='_blank'>gouldcider.co.uk</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.898641,50.30006232
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Green shed",
 				"buying": "Order online at <a href='https://www.greenshedcider.co.uk/' target='_blank'>greenshedcider.co.uk</a>",
 				"address": "Not open to the public"
@@ -219,6 +303,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Hamilton Cider",
+				"buying": "No website. See their <a href='https://www.instagram.com/hamiltoncidercompany/' target='_blank'>Instagram account</a> for the latest.",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.073841883,55.82524619
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Hawkes",
 				"buying": "Order online at <a href='https://www.brewdog.com/uk/shop/cider' target='_blank'>brewdog.com</a>",
 				"address": "Available at all Brewdog bars"
@@ -226,6 +322,18 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [-0.07471759261,51.50019991
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Hogans",
+				"buying": "Order online at <a href='https://www.hoganscider.co.uk/' target='_blank'>hoganscider.co.uk</a>",
+				"address": "Hogan's Cider Limited, Haselor, Alcester, Warwickshire, B49 6LX"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.833556696,52.22066195
 				]
 			}
 		},{
@@ -267,6 +375,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Lost Orchards",
+				"buying": "Order online at <a href='https://lostorchards.co.uk/' target='_blank'>lostorchards.co.uk</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.090907402,56.50699526
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Newton Court Cider",
 				"buying": "Order online at <a href='https://www.newtoncourtcider.com/shopnow' target='_blank'>newtoncourtcider.com</a>",
 				"address": "Newton, Nr Leominster, HR6 0PF"
@@ -286,6 +406,18 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [0.723659354,51.06135438
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Novar",
+				"buying": "Visit their website at <a href='https://www.novarcider.com' target='_blank'>novarcider.com</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.331557402,57.68283188
 				]
 			}
 		},{
@@ -435,6 +567,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Rutts Lane",
+				"buying": "Order online at <a href='https://ruttslanecider.co.uk/shop/' target='_blank'>ruttslanecider.co.uk</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.98828403,51.27555
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Sandford Orchards",
 				"buying": "Order online at <a href='http://www.sandfordorchards.co.uk/shop/' target='_blank'>sandfordorchards.co.uk</a>",
 				"address": "The Cider Works, Commonmarsh Lane, Crediton, Devon, EX17 1HJ"
@@ -442,6 +586,29 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [-3.645396632716934,50.7892714358231
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Seidear",
+				"buying": "Visit their website at <a href='https://seidear.com/' target='_blank'>seidear.com</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.226290477,57.094015
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Shed Cider",
+				"buying": "Visit their website at <a href='https://www.shedcider.com/' target='_blank'>shedcider.com/</a>"
+			},
+			"geometry": {
+				"type": "Bromham Cider Farm, 184 St Edith's Marsh, Bromham, SN15 2DJ",
+				"coordinates": [-2.033254931,51.37734699
 				]
 			}
 		},{
@@ -495,6 +662,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Steilhead Cider",
+				"buying": "Order online at <a href='https://steilheadcider.co.uk/' target='_blank'>steilheadcider.co.uk</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.733504979,55.13377408
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Temple Cider",
 				"buying": "View their website at <a href='https://www.templecider.co.uk/our-ciders-2/' target='_blank'>templecider.co.uk</a>",
 				"address": "Not open to the public"
@@ -531,6 +710,18 @@
 		},{
 			"type": "Feature",
 			"properties": {
+				"title": "Thirstly Cross",
+				"buying": "Order online at <a href='https://www.thistlycrosscider.co.uk/' target='_blank'>thistlycrosscider.co.uk</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.555412485,55.99478233
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
 				"title": "Tillingham",
 				"buying": "Order online at <a href='https://tillingham.com/product/tillingham-qvevri-cyder-peaux-de-pomme/' target='_blank'>tillingham.com</a>",
 				"address": "Tillingham, Dew Farm, Dew Lane, Peasmarsh, East Sussex TN31 6XD"
@@ -538,6 +729,18 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [0.677633227,50.95879786
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Tinston",
+				"buying": "Order online at <a href='https://tinstonwinecider.com/' target='_blank'>tinstonwinecider.com</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.1140175314,50.84163286
 				]
 			}
 		},{
@@ -615,61 +818,97 @@
 		},{
 			"type": "Feature",
 			"properties": {
-				"title": "Burrow Hill Cider",
-				"buying": "Order online at <a href='https://www.somersetciderbrandy.com/burrow-hill-cider' target='_blank'>somersetciderbrandy.com</a>",
-				"address": "The Somerset Cider Brandy Company, Pass Vale Farm, Burrow Hill, Martock, Somerset, TA12 6BU"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-2.838755624,50.97715915
-				]
-			}
-		},{
-			"type": "Feature",
-			"properties": {
-				"title": "Gloud",
-				"buying": "Order online at <a href='https://gouldcider.co.uk/' target='_blank'>gouldcider.co.uk</a>",
+				"title": "Hyrneside",
+				"buying": "View their website at <a href='https://www.hyrneside.co.uk' target='_blank'>hyrneside.co.uk</a>",
 				"address": "Not open to the public"
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-4.898641,50.30006232
+				"coordinates": [-3.222074173,56.35369835
 				]
 			}
 		},{
 			"type": "Feature",
 			"properties": {
-				"title": "Hogans",
-				"buying": "Order online at <a href='https://www.hoganscider.co.uk/' target='_blank'>hoganscider.co.uk</a>",
-				"address": "Hogan's Cider Limited, Haselor, Alcester, Warwickshire, B49 6LX"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.833556696,52.22066195
-				]
-			}
-		},{
-			"type": "Feature",
-			"properties": {
-				"title": "Tinston",
-				"buying": "Order online at <a href='https://tinstonwinecider.com/' target='_blank'>tinstonwinecider.com</a>",
+				"title": "Cumbrian Cider",
+				"buying": "No website. See their <a href='https://www.facebook.com/cumbriancider' target='_blank'>Facebook</a> for the latest.",
 				"address": "Not open to the public"
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-0.1140175314,50.84163286
+				"coordinates": [-3.199588591,54.75725517
 				]
 			}
 		},{
 			"type": "Feature",
 			"properties": {
-				"title": "Seidear",
-				"buying": "Visit their website at <a href='https://seidear.com/' target='_blank'>seidear.com</a>",
+				"title": "Mosser Cider",
+				"buying": "View their website at <a href='https://mossercider.co.uk/' target='_blank'>mossercider.co.uk</a>",
 				"address": "Not open to the public"
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-2.226290477,57.094015
+				"coordinates": [-3.367617413,54.6644696
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Grasmere Brewery",
+				"buying": "View their website at <a href='https://www.grasmerebrewery.com/' target='_blank'>grasmerebrewery.com</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-3.02202923,54.45539986
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Elvet Cider",
+				"buying": "No website. See their <a href='https://www.facebook.com/elvetcider' target='_blank'>Facebook</a> for the latest.",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.583456259,54.77848352
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Broughton Bank Perry and Cider",
+				"buying": "View their website at <a href='http://ciderman.co.uk/' target='_blank'>ciderman.co.uk</a>",
+				"address": "roughton Bank, Cartmel, Cumbria, LA11 7SH"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.955462759,54.2187042
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Masham Cider Press",
+				"buying": "View their website at <a href='http://mashamciderpress.com' target='_blank'>mashamciderpress.com</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.65600623,54.22182065
+				]
+			}
+		},{
+			"type": "Feature",
+			"properties": {
+				"title": "Thornborough Cider",
+				"buying": "View their website at <a href='http://thornboroughcider.co.uk/' target='_blank'>thornboroughcider.co.uk</a>",
+				"address": "Not open to the public"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.55290997,54.21275694
 				]
 			}
 		}

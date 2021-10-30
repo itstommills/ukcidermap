@@ -7,18 +7,10 @@
 
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 
-  // mapbox
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
 
-  //leaflet
-//  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-//  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"
-      crossorigin=""/>
-
-  //sidebar
-  <link rel="stylesheet" href="./sidebar-v2-master/css/leaflet-sidebar.css" />
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
 <style>
   body { margin: 0; padding: 0; }
@@ -27,19 +19,15 @@
 </head>
 
 <body>
-//sidebar
 
-
-
-//map
   <div id="map"></div>
 
-<script>
-  //map
+
+  <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoiaXRzdG9tbWlsbHMiLCJhIjoiY2txdGRuY2Y4MHMyNDJ3bzN0MDE4cnFpbyJ9.bUhw0_nhK0cIQ9TBQAJC7g';
     const map = new mapboxgl.Map({
         container: 'map', // container ID
-        style: 'mapbox://styles/mapbox/streets-v11', // style URL
+        style: 'mapbox://styles/itstommills/cksewhfexde6m18qqdog0pk37', // style URL
         center: [-2.775464074083465, 54.23777317792032], // starting position [lng, lat]
         zoom: 5 // starting zoom
     });
@@ -63,6 +51,47 @@
             }
         });
     });
+
+    // When a click event occurs on a feature in the places layer, open a popup at the
+    // location of the feature, with description HTML from its properties.
+    map.on('click', 'ciderys-layer', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var title = e.features[0].properties.title;
+        var buying = e.features[0].properties.buying;
+        var address = e.features[0].properties.address;
+
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML (`<table class="tableMap" style="table-layout:fixed; width:350px">
+                        <colgroup>
+                            <col span="1" style="width: 10%;">
+                            <col span="1" style="width: 90%;">
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <td class="tdMap" colspan='2' style="font-size:23px; text-align:center;" height="50"><strong>${title}</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="tdMap" style="text-align:center; vertical-align:middle;"><span class="material-icons md-18">language</span></td>
+                            <td class="tdMap" style="font-size:14px">${buying}</td>
+                        </tr>
+                        <tr>
+                            <td class="tdMap" style="text-align:center"><span class="material-icons md-18">my_location</span></td>
+                            <td class="tdMap" style="font-size:14px">${address}</td>
+                        </tr>
+                        </tbody>
+                        </table>`)
+        .setMaxWidth("400px")
+        .addTo(map);
+      });
+
 
     // Change the cursor to a pointer when the mouse is over the places layer.
     map.on('mouseenter', 'ciderys-layer', function () {
