@@ -604,10 +604,11 @@
 			"type": "Feature",
 			"properties": {
 				"title": "Shed Cider",
-				"buying": "Visit their website at <a href='https://www.shedcider.com/' target='_blank'>shedcider.com/</a>"
+				"buying": "Visit their website at <a href='https://www.shedcider.com/' target='_blank'>shedcider.com/</a>",
+				"address": "Bromham Cider Farm, 184 St Edith's Marsh, Bromham, SN15 2DJ"
 			},
 			"geometry": {
-				"type": "Bromham Cider Farm, 184 St Edith's Marsh, Bromham, SN15 2DJ",
+				"type": "Point",
 				"coordinates": [-2.033254931,51.37734699
 				]
 			}
