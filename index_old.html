@@ -7,11 +7,18 @@
 
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 
+    // loading in mapbox components
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />
   <link href="https://itstommills.github.io/ukcidermap/ciderMapCSS.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+
+    // loading in leaflet sidebar v2
+  <link href="./leaflet-sidebar-v2-master/css/leaflet-sidebar.css" rel="stylesheet" />
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      crossorigin=""></script>
+  <script src="./leaflet-sidebar-v2-master/js/leaflet-sidebar.js"></script>
 
 
   <style>
@@ -27,6 +34,7 @@
 <body>
 
   <div id="map"></div>
+
   <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoiaXRzdG9tbWlsbHMiLCJhIjoiY2txdGRuY2Y4MHMyNDJ3bzN0MDE4cnFpbyJ9.bUhw0_nhK0cIQ9TBQAJC7g';
   var map = new mapboxgl.Map({
@@ -116,7 +124,43 @@
           }
       }));
 
+      // Setting up the sidebar
 
+      // create the sidebar instance and add it to the map
+      var sidebar = L.control.sidebar({ container: 'sidebar' })
+          .addTo(map)
+          .open('home');
+
+      // add panels dynamically to the sidebar
+      sidebar
+          .addPanel({
+              id:   'js-api',
+              tab:  '<i class="fa fa-gear"></i>',
+              title: 'JS API',
+              pane: '<p>The Javascript API allows to dynamically create or modify the panel state.<p/><p><button onclick="sidebar.enablePanel(\'mail\')">enable mails panel</button><button onclick="sidebar.disablePanel(\'mail\')">disable mails panel</button></p><p><button onclick="addUser()">add user</button></b>',
+          })
+
+
+      // be notified when a panel is opened
+      sidebar.on('content', function (ev) {
+          switch (ev.id) {
+              case 'autopan':
+              sidebar.options.autopan = true;
+              break;
+              default:
+              sidebar.options.autopan = false;
+          }
+      });
+
+      var userid = 0
+      function addUser() {
+          sidebar.addPanel({
+              id:   'user' + userid++,
+              tab:  '<i class="fa fa-user"></i>',
+              title: 'User Profile ' + userid,
+              pane: '<p>user ipsum dolor sit amet</p>',
+          });
+      }
 
 </script>
 </body>

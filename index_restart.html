@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Display a map on a webpage</title>
+
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+  // mapbox
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
+
+  //leaflet
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      crossorigin=""/>
+
+  //sidebar
+  <link rel="stylesheet" href="./leaflet-sidebar-v2-master/css/leaflet-sidebar.css" />
+
+
+<style>
+  body { margin: 0; padding: 0; }
+  #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+
+<body>
+//sidebar
+<!-- optionally define the sidebar content via HTML markup -->
+<div id="sidebar" class="leaflet-sidebar collapsed">
+
+    <!-- nav tabs -->
+    <div class="leaflet-sidebar-tabs">
+        <!-- top aligned tabs -->
+        <ul role="tablist">
+            <li><a href="#home" role="tab"><i class="fa fa-bars active"></i></a></li>
+            <li><a href="#autopan" role="tab"><i class="fa fa-arrows"></i></a></li>
+        </ul>
+
+        <!-- bottom aligned tabs -->
+        <ul role="tablist">
+            <li><a href="https://github.com/nickpeihl/leaflet-sidebar-v2"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- panel content -->
+    <div class="leaflet-sidebar-content">
+        <div class="leaflet-sidebar-pane" id="home">
+            <h1 class="leaflet-sidebar-header">
+                sidebar-v2
+                <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
+            </h1>
+
+            <p>A responsive sidebar for the mapping library <a href="https://leafletjs.com/">Leaflet</a>.</p>
+            <p>Compatible with version 0.7 and 1.x (tested up to 1.6.0)</p>
+            <p><b>Select the other panes for a showcase of each feature.</b></p>
+
+            <h2>More examples</h2>
+            <ul>
+                <li><a href="./position-right.html">Right aligned</a></li>
+                <li><a href="./halfheight.html">The sidebar adapts to map container size</a></li>
+                <li><a href="./leaflet-latest.html">Proof that it works with the latest leaflet version (if not, please report it!)</a></li>
+                <li><a href="./leaflet-0.7.html">Proof that it works with leaflet 0.7</a></li>
+            </ul>
+
+            <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="leaflet-sidebar-pane" id="autopan">
+            <h1 class="leaflet-sidebar-header">
+                autopan
+                <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
+            </h1>
+            <p>
+                <code>Leaflet.control.sidebar({ autopan: true })</code>
+                makes shure that the map center always stays visible.
+            </p>
+            <p>
+                The autopan behviour is responsive as well.
+                Try opening and closing the sidebar from this pane!
+            </p>
+        </div>
+
+        <div class="leaflet-sidebar-pane" id="messages">
+            <h1 class="leaflet-sidebar-header">Messages<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+        </div>
+    </div>
+</div>
+
+//map
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      crossorigin=""></script>
+  <script src="./leaflet-sidebar-v2-master/js/leaflet-sidebar.js"></script>
+
+<script>
+  //map
+  mapboxgl.accessToken = 'pk.eyJ1IjoiaXRzdG9tbWlsbHMiLCJhIjoiY2txdGRuY2Y4MHMyNDJ3bzN0MDE4cnFpbyJ9.bUhw0_nhK0cIQ9TBQAJC7g';
+    const map = new mapboxgl.Map({
+        container: 'map', // container ID
+        style: 'mapbox://styles/mapbox/streets-v11', // style URL
+        center: [-2.775464074083465, 54.23777317792032], // starting position [lng, lat]
+        zoom: 5 // starting zoom
+    });
+
+  //sidebar
+  // create the sidebar instance and add it to the map
+  var sidebar = L.control.sidebar({ container: 'sidebar' })
+      .addTo(map)
+      .open('home');
+
+  // add panels dynamically to the sidebar
+  sidebar
+      .addPanel({
+          id:   'js-api',
+          tab:  '<i class="fa fa-gear"></i>',
+          title: 'JS API',
+          pane: '<p>The Javascript API allows to dynamically create or modify the panel state.<p/><p><button onclick="sidebar.enablePanel(\'mail\')">enable mails panel</button><button onclick="sidebar.disablePanel(\'mail\')">disable mails panel</button></p><p><button onclick="addUser()">add user</button></b>',
+      })
+      // add a tab with a click callback, initially disabled
+      .addPanel({
+          id:   'mail',
+          tab:  '<i class="fa fa-envelope"></i>',
+          title: 'Messages',
+          button: function() { alert('opened via JS callback') },
+          disabled: true,
+      })
+
+  // be notified when a panel is opened
+  sidebar.on('content', function (ev) {
+      switch (ev.id) {
+          case 'autopan':
+          sidebar.options.autopan = true;
+          break;
+          default:
+          sidebar.options.autopan = false;
+      }
+  });
+
+  var userid = 0
+  function addUser() {
+      sidebar.addPanel({
+          id:   'user' + userid++,
+          tab:  '<i class="fa fa-user"></i>',
+          title: 'User Profile ' + userid,
+          pane: '<p>user ipsum dolor sit amet</p>',
+      });
+  }
+
+</script>
+
+</body>
+</html>
